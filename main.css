@@ -1,0 +1,29 @@
+@charset "utf-8";
+/* Assignment 1 | COMP1073 Client-Side JavaScript */
+body{
+    background-color: grey;
+}
+.button-collection{
+    display: block;
+    align-items: center;
+    margin: 250px auto;
+    text-align: center;
+    justify-content: center;
+
+}
+button{
+    font-size: 22px;
+    cursor: pointer;
+    outline: none;
+    padding: 3%;
+}
+#storyOutput{
+    color: white;
+}
+button:hover{
+    background-color: rgb(137, 132, 132);
+    outline: none;
+}
+
+
+
